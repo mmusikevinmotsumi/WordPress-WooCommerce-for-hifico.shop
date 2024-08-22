@@ -1,0 +1,27 @@
+.ast-builder-menu-1 .menu-item > .menu-link{
+    line-height: inherit;
+}
+.ast-builder-menu-3 .menu-item.current-menu-item > .menu-link{
+	color: white;
+}
+.ast-single-product-payments ul{
+    justify-content: inherit;
+}
+
+@media (max-width: 544px) {
+    #ast-mobile-popup-wrapper .ast-mobile-popup-drawer .ast-mobile-popup-inner {
+        width: 100%;
+    }
+    .woocommerce div.product form.cart .button.single_add_to_cart_button{
+		width: 180px;
+	}
+    .woocommerce .astra-off-canvas-sidebar-wrapper .astra-off-canvas-sidebar, .woocommerce-page .astra-off-canvas-sidebar-wrapper .astra-off-canvas-sidebar{
+        width: 100%;
+    }
+}
+
+@media (min-width: 544px){
+    .woocommerce .astra-off-canvas-sidebar-wrapper .astra-off-canvas-sidebar, .woocommerce-page .astra-off-canvas-sidebar-wrapper .astra-off-canvas-sidebar{
+        width: 500px;
+    }
+}
