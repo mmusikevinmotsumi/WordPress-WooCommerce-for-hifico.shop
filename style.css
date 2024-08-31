@@ -15,14 +15,12 @@
 table.shop_table.cart{
     background: #000;
 }
-
 .cart_totals {
     background: #000;
 }
 .cart_totals h2 {
     color: #FEDE00;
 }
-
 .woocommerce-checkout .main-header-bar {
     background-image: url(http://hifico.shop/wp-content/uploads/2024/05/web-back-2-scaled.jpg);
     background-repeat: repeat;
@@ -51,10 +49,10 @@ label[for="wc-authorize-net-cim-credit-card-tokenize-payment-method"] {
     #ast-mobile-popup-wrapper .ast-mobile-popup-drawer .ast-mobile-popup-inner {
         width: 100%;
     }
-    .woocommerce div.product form.cart .button.single_add_to_cart_button{
+	.woocommerce div.product form.cart .button.single_add_to_cart_button{
 		width: 180px;
 	}
-    .woocommerce .astra-off-canvas-sidebar-wrapper .astra-off-canvas-sidebar, .woocommerce-page .astra-off-canvas-sidebar-wrapper .astra-off-canvas-sidebar{
+	.woocommerce .astra-off-canvas-sidebar-wrapper .astra-off-canvas-sidebar, .woocommerce-page .astra-off-canvas-sidebar-wrapper .astra-off-canvas-sidebar{
         width: 100%;
     }
 }
