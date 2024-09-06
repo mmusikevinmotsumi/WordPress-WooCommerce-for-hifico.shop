@@ -44,7 +44,22 @@ label[for="wc-authorize-net-cim-credit-card-tokenize-payment-method"] {
 .woocommerce-order-received .woocommerce-customer-details h2.woocommerce-column__title, .woocommerce-order-details__title{
     color: #FEDE00 !important;
 }
-
+.woocommerce-js .select2-results__option, .woocommerce-js .select2-search--dropdown .select2-search__field{
+    color: #808285;
+}
+.ast-modern-checkout .woocommerce #ast-order-review-content .woocommerce-checkout-review-order-table tbody tr td.product-name .ast-product-image.ast-enable-image .ast-product-name, 
+.ast-modern-checkout .woocommerce #order_review .woocommerce-checkout-review-order-table tbody tr td.product-name .ast-product-image.ast-enable-image .ast-product-name {
+    width: 100%;
+}
+.ast-modern-checkout .woocommerce #order_review .woocommerce-checkout-review-order-table tbody tr.ast-variable-product .product-name {
+    flex-wrap: inherit;
+}
+.woocommerce-order-received .woocommerce-table--order-details{
+    background: #000;
+}
+.woocommerce-js ul.products li.product .woocommerce-loop-category__title, .woocommerce-page ul.products li.product .woocommerce-loop-category__title{
+    color: #000;
+}
 @media (max-width: 544px) {
     #ast-mobile-popup-wrapper .ast-mobile-popup-drawer .ast-mobile-popup-inner {
         width: 100%;
